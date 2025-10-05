@@ -150,7 +150,14 @@ do
                 [[{"FontColor":"eeffff","MainColor":"212121","AccentColor":"82aaff","BackgroundColor":"151515","OutlineColor":"424242"}]]
             ),
         },
+        ["nobulem"] = {
+            19,
+            httpService:JSONDecode(
+                [[{"FontColor":"ffffff","MainColor":"191919","AccentColor":"ff0000","BackgroundColor":"0f0f0f","OutlineColor":"282828","FontFace":"Code"}]]
+            ),
+        },
     }
+
 
     function ThemeManager:SetLibrary(library)
         self.Library = library
